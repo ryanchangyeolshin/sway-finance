@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Typography */
+  font-family: 'Source Sans Pro', sans-serif;
+
+  /* Visuals */
+  background-color: white;
+}
+
+.container {
+  /* Positioning */
+  width: 900px;
+
+  /* Box Model */
+  margin: 0 auto;
+}
+
+.header {
+  /* Positioning */
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  /* Box Model */
+  display: block;
+  margin: 0 auto;
+
+  /* Typography */
+
+  /* Visuals */
+  background-color: #1e2431;
+
+  /* Misc */
+  overflow: hidden;
+}
+
+.brand-logo {
+  /* Positioning */
+  float: left;
+  width: 25%;
+  height: 100%;
+
+  /* Box Model */
+  margin-left: 140px;
+}
+
+.logo {
+  /* Positioning */
+  width: 65%;
+  height: 65%;
+
+  /* Box Model */
+  padding: 20px;
+}
+
+.navbar {
+  /* Positioning */
+  float: left;
+  width: calc(75% - 260px);
+  height: 100%;
+
+  /* Box Model */
+  display: inline-block;
+  margin-top: 12px;
+
+  /* Typography */
+  text-align: right;
+
+  /* Visuals */
+  list-style: none;
+  color: white;
+}
+
+li {
+  /* Positioning */
+  width: calc(30% - 16px);
+
+  /* Box Model */
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visuals */
+  background-color: #1e2431;
+}
+
+a {
+  /* Box Model */
+  padding: 10px;
+
+  /* Typography */
+  text-decoration: none;
+
+  /* Visuals */
+  color: #797b81;
+}
+
+.signup {
+  /* Visuals */
+  background-color: #34cb7c;
+  border-radius: 4px;
+}
+
+#signup-link {
+  /* Visuals */
+  color: white;
+}
