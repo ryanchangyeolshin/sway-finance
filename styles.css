@@ -4,6 +4,10 @@
 }
 
 body {
+  /* Positioning */
+  width: 100%;
+  height: 100%;
+
   /* Typography */
   font-family: 'Source Sans Pro', sans-serif;
 
@@ -11,16 +15,17 @@ body {
   background-color: white;
 }
 
-.header {
+.section {
   /* Positioning */
   width: 100%;
-  height: 100%;
 
   /* Box Model */
   display: block;
-  margin: 0 auto;
+}
 
-  /* Typography */
+.header {
+  /* Positioning */
+  height: 100%;
 
   /* Visuals */
   background-color: #1e2431;
@@ -35,7 +40,6 @@ body {
   height: 100%;
 
   /* Box Model */
-  display: block;
   margin: 0 auto;
 }
 
@@ -65,7 +69,6 @@ body {
   height: 100%;
 
   /* Box Model */
-  display: inline-block;
   margin-top: 12px;
   margin-right: 40px;
 
