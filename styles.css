@@ -18,9 +18,7 @@ body {
 .section {
   /* Positioning */
   width: 100%;
-
-  /* Box Model */
-  display: block;
+  height: 100%;
 }
 
 .header {
@@ -29,9 +27,6 @@ body {
 
   /* Visuals */
   background-color: #1e2431;
-
-  /* Misc */
-  overflow: hidden;
 }
 
 .container {
@@ -41,6 +36,9 @@ body {
 
   /* Box Model */
   margin: 0 auto;
+
+  /* Misc */
+  overflow: hidden;
 }
 
 .brand-logo {
@@ -96,7 +94,7 @@ li {
   background-color: #1e2431;
 }
 
-a {
+li a {
   /* Box Model */
   padding: 10px;
 
@@ -109,11 +107,15 @@ a {
 
 .signup {
   /* Visuals */
+  color: white;
   background-color: #34cb7c;
   border-radius: 4px;
 }
 
-#signup-link {
+#signup-link-1 {
+  /* Typography */
+  text-transform: none;
+
   /* Visuals */
   color: white;
 }
