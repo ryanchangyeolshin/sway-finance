@@ -15,23 +15,27 @@ body {
   background-color: white;
 }
 
-.section {
-  /* Positioning */
-  width: 100%;
-  height: 100%;
-}
-
 .header {
   /* Positioning */
+  width: 100%;
   height: 100%;
 
   /* Visuals */
   background-color: #1e2431;
+
+  /* Misc */
+  overflow: hidden;
+}
+
+.section {
+  /* Box Model */
+  padding: 0 40px;
 }
 
 .container {
   /* Positioning */
-  width: 900px;
+  width: 100%;
+  max-width: 1000px;
   height: 100%;
 
   /* Box Model */
@@ -62,8 +66,7 @@ body {
 
 .navbar {
   /* Positioning */
-  float: left;
-  width: calc(75% - 80px);
+  float: right;
   height: 100%;
 
   /* Box Model */
@@ -80,7 +83,7 @@ body {
 
 li {
   /* Positioning */
-  width: calc(25% - 30px);
+  width: calc(33.33% - 40px / 3px);
 
   /* Box Model */
   display: inline-block;
@@ -118,4 +121,110 @@ li a {
 
   /* Visuals */
   color: white;
+}
+
+.product-description {
+  /* Positioning */
+  width: 100%;
+  height: 100%;
+
+  /* Box Model */
+  padding-top: 100px;
+  padding-bottom: 150px;
+
+  /* Visuals */
+  background-color: #1e2431;
+
+  /* Misc */
+  overflow: hidden;
+}
+
+.product-info {
+  /* Positioning */
+  float: left;
+  width: 50%;
+  height: 100%;
+
+  /* Box Model */
+  margin-top: 40px;
+  padding-left: 40px;
+}
+
+.company-slogan {
+  /* Box Model */
+  margin-bottom: 20px;
+  padding-right: 100px;
+
+  /* Typography */
+  font-size: 1.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  /* Visuals */
+  color: white;
+}
+
+.company-message {
+  /* Box Model */
+  margin-bottom: 20px;
+  padding-right: 100px;
+
+  /* Typography */
+  font-size: 0.9em;
+  font-weight: 300;
+
+  /* Visuals */
+  color: #d5d6da;
+}
+
+.email {
+  /* Box Model */
+  margin-right: 10px;
+  padding: 10px 80px 10px 10px;
+
+  /* Typography */
+  font-size: 0.6em;
+
+  /* Visuals */
+  border: none;
+  border-radius: 2px;
+}
+
+#signup-link-2 {
+  /* Box Model */
+  padding: 9px 40px;
+
+  /* Typography */
+  border-radius: 2px;
+  font-size: 0.7em;
+  text-decoration: none;
+
+  /* Visuals */
+}
+
+.video {
+  /* Positioning */
+  position: relative;
+  float: left;
+  width: 50%;
+
+  /* Box Model */
+  padding-right: 40px;
+}
+
+.product-video {
+  /* Positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.play-button {
+  /* Positioning */
+  position: absolute;
+  width: 16%;
+  height: 25%;
+  top: 35%;
+  left: 38%;
 }
