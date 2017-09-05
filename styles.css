@@ -290,3 +290,67 @@ li a {
   /* Visuals */
   color: #8d929d;
 }
+
+.slack {
+  /* Positioning */
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  /* Box Model */
+  padding: 250px;
+
+  /* Visuals */
+  background-color: #f7f8fd;
+
+  /* Misc */
+  overflow: hidden;
+}
+
+.slack-info {
+  /* Positioning */
+  float: left;
+  width: 50%;
+  height: 100%;
+
+  /* Box Model */
+  padding: 50px;
+}
+
+.slack-header {
+  /* Box Model */
+  margin-bottom: 15px;
+
+  /* Typography */
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.slack-description {
+  /* Box Model */
+  margin-bottom: 30px;
+  padding-right: 70px;
+
+  /* Typography */
+  font-size: 1.1em;
+  font-weight: 300;
+
+  /* Visual */
+  color: #8d929d;
+}
+
+#signup-link-3 {
+  /* Box Model */
+  padding: 10px 20px;
+
+  /* Typography */
+  text-decoration: none;
+}
+
+.slack-img {
+  position: absolute;
+  top: 0;
+  left: 1000px;
+  float: left;
+  width: 50%;
+}
